@@ -1,0 +1,510 @@
+\begin{thebibliography}{10}
+
+\bibitem{woods1986readings}
+Woods, WA.
+\newblock Readings in natural language processing. chapter Semantics and
+  quantification in natural language question answering[EB/OL].
+\newblock 1986.
+
+\bibitem{hendrix1978developing}
+Hendrix, Gary~G, Sacerdoti, Earl~D, Sagalowicz, Daniel, et~al.
+\newblock Developing a natural language interface to complex data[J].
+\newblock ACM Transactions on Database Systems (TODS), 1978, 3(2):105--147.
+
+\bibitem{androutsopoulos1993masque}
+Androutsopoulos, Ion, Ritchie, Graeme, and Thanisch, Peter.
+\newblock Masque/sql--an efficient and portable natural language query
+  interface for relational databases[C].
+\newblock In: Proceedings of the 6th International Conference on Industrial \&
+  Engineering Applications of Artificial Intelligence and Expert Systems.
+\newblock 1993.
+
+\bibitem{hallett2006generic}
+Hallett, Catalina.
+\newblock Generic querying of relational databases using natural language
+  generation techniques[C].
+\newblock In: Proceedings of the fourth international natural language
+  generation conference.
+\newblock 2006.
+
+\bibitem{li2014constructing}
+Li, Fei and Jagadish, Hosagrahar~V.
+\newblock Constructing an interactive natural language interface for relational
+  databases[J].
+\newblock Proceedings of the VLDB Endowment, 2014, 8(1):73--84.
+
+\bibitem{zhongWikiSQLSeq2SQL2017}
+Zhong, Victor, Xiong, Caiming, and Socher, Richard.
+\newblock Seq2SQL: Generating Structured Queries from Natural Language using
+  Reinforcement Learning[J].
+\newblock CoRR, 2017, abs/1709.00103.
+
+\bibitem{bahdanau2014neural}
+Bahdanau, Dzmitry, Cho, Kyunghyun, and Bengio, Yoshua.
+\newblock Neural Machine Translation by Jointly Learning to Align and
+  Translate[C].
+\newblock In: Proceedings of the third International Conference on Learning
+  Representations.
+\newblock 2015.
+
+\bibitem{hochreiter1997long}
+Hochreiter, Sepp and Schmidhuber, J{\"u}rgen.
+\newblock Long short-term memory[J].
+\newblock Neural computation, 1997, 9(8):1735--1780.
+
+\bibitem{vinyals2015pointer}
+Vinyals, Oriol, Fortunato, Meire, and Jaitly, Navdeep.
+\newblock Pointer networks[J].
+\newblock Advances in neural information processing systems, 2015,
+  28(25):169--182.
+
+\bibitem{wang2018pointing}
+Wang, Chenglong, Brockschmidt, Marc, and Singh, Rishabh.
+\newblock Pointing Out {SQL} Queries From Text[EB/OL].
+\newblock 2018.
+
+\bibitem{gu2016incorporating}
+Gu, Jiatao, Lu, Zhengdong, Li, Hang, et~al.
+\newblock Incorporating Copying Mechanism in Sequence-to-Sequence Learning[C].
+\newblock In: Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers).
+\newblock 2016.
+
+\bibitem{xu2017sqlnet}
+Xu, Xiaojun, Liu, Chang, and Song, Dawn.
+\newblock SQLNet: Generating Structured Queries From Natural Language Without
+  Reinforcement Learning[J].
+\newblock CoRR, 2017, abs/1711.04436.
+
+\bibitem{guo2017bidirectional}
+Huilin, Gao, Tong, Guo, Fan, Wang, et~al.
+\newblock Bidirectional Attention for SQL Generation[C].
+\newblock In: Proceedings of the 2019 IEEE 4th International Conference on
+  Cloud Computing and Big Data Analysis (ICCCBDA).
+\newblock 2019.
+
+\bibitem{huang2018natural}
+Huang, Po-Sen, Wang, Chenglong, Singh, Rishabh, et~al.
+\newblock Natural Language to Structured Query Generation via Meta-Learning[C].
+\newblock In: Proceedings of the 2018 Conference of the North American Chapter
+  of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers).
+\newblock 2018.
+
+\bibitem{yu2018typesql}
+Yu, Tao, Li, Zifan, Zhang, Zilin, et~al.
+\newblock TypeSQL: Knowledge-based type-aware neural text-to-SQL generation[C].
+\newblock In: 2018 Conference of the North American Chapter of the Association
+  for Computational Linguistics: Human Language Technologies, NAACL HLT.
+\newblock 2018.
+
+\bibitem{dong2018coarse}
+Dong, Li and Lapata, Mirella.
+\newblock Coarse-to-Fine Decoding for Neural Semantic Parsing[C].
+\newblock In: Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers).
+\newblock 2018.
+
+\bibitem{mccann2018natural}
+McCann, Bryan, Keskar, Nitish~Shirish, Xiong, Caiming, et~al.
+\newblock The Natural Language Decathlon: Multitask Learning as Question
+  Answering[J].
+\newblock CoRR, 2018, abs/1806.08730.
+
+\bibitem{chang2020zero}
+Chang, Shuaichen, Liu, Pengfei, Tang, Yun, et~al.
+\newblock Zero-shot text-to-SQL learning with auxiliary task[C].
+\newblock In: Proceedings of the AAAI Conference on Artificial Intelligence.
+\newblock 2020.
+
+\bibitem{nadeau2007survey}
+Nadeau, David and Sekine, Satoshi.
+\newblock A survey of named entity recognition and classification[J].
+\newblock Lingvisticae Investigationes, 2007, 30(1):3--26.
+
+\bibitem{shi2018incsql}
+Shi, Tianze, Tatwawadi, Kedar, Chakrabarti, Kaushik, et~al.
+\newblock IncSQL: Training Incremental Text-to-SQL Parsers with
+  Non-Deterministic Oracles[J].
+\newblock CoRR, 2018, abs/1809.05054.
+
+\bibitem{wang2018robust}
+Wang, Chenglong, Tatwawadi, Kedar, Brockschmidt, Marc, et~al.
+\newblock Robust text-to-sql generation with execution-guided decoding[J].
+\newblock CoRR, 2018, abs/1807.03100.
+
+\bibitem{ma2020mention}
+Ma, Jianqiang, Yan, Zeyu, Pang, Shuai, et~al.
+\newblock Mention Extraction and Linking for SQL Query Generation[C].
+\newblock In: Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP).
+\newblock 2020.
+
+\bibitem{hui2021improving}
+Hui, Binyuan, Shi, Xiang, Geng, Ruiying, et~al.
+\newblock Improving Text-to-SQL with Schema Dependency Learning[J].
+\newblock CoRR, 2021, abs/2103.04399.
+
+\bibitem{yu2018spider}
+Yu, Tao, Zhang, Rui, Yang, Kai, et~al.
+\newblock Spider: A Large-Scale Human-Labeled Dataset for Complex and
+  Cross-Domain Semantic Parsing and Text-to-SQL Task[C].
+\newblock In: Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing.
+\newblock 2018.
+
+\bibitem{yu2018syntaxsqlnet}
+Yu, Tao, Yasunaga, Michihiro, Yang, Kai, et~al.
+\newblock SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-Domain
+  Text-to-SQL Task[C].
+\newblock In: Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing.
+\newblock 2018.
+
+\bibitem{lee2019clause}
+Lee, Dongjun.
+\newblock Clause-Wise and Recursive Decoding for Complex and Cross-Domain
+  Text-to-{SQL} Generation[C].
+\newblock In: Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP).
+\newblock 2019.
+
+\bibitem{lin2019grammar}
+Lin, Kevin, Bogin, Ben, Neumann, Mark, et~al.
+\newblock Grammar-based Neural Text-to-SQL Generation[J].
+\newblock CoRR, 2019, abs/1905.13326.
+
+\bibitem{guo2019towards}
+Guo, Jiaqi, Zhan, Zecheng, Gao, Yan, et~al.
+\newblock Towards Complex Text-to-SQL in Cross-Domain Database with
+  Intermediate Representation[C].
+\newblock In: Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2019.
+
+\bibitem{bogin2019representing}
+Bogin, Ben, Berant, Jonathan, and Gardner, Matt.
+\newblock Representing Schema Structure with Graph Neural Networks for
+  Text-to-SQL Parsing[C].
+\newblock In: Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2019.
+
+\bibitem{li2015gated}
+Li, Yujia, Zemel, Richard, Brockschmidt, Marc, et~al.
+\newblock Gated Graph Sequence Neural Networks[C].
+\newblock In: Proceedings of the 4th International Conference on Learning
+  Representations.
+\newblock 2016.
+
+\bibitem{bogin2019global}
+Bogin, Ben, Gardner, Matt, and Berant, Jonathan.
+\newblock Global Reasoning over Database Structures for Text-to-SQL Parsing[C].
+\newblock In: Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP).
+\newblock 2019.
+
+\bibitem{zhong2020grounded}
+Zhong, Victor, Lewis, Mike, Wang, Sida~I, et~al.
+\newblock Grounded Adaptation for Zero-shot Executable Semantic Parsing[C].
+\newblock In: Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP).
+\newblock 2020.
+
+\bibitem{lei2020re}
+Lei, Wenqiang, Wang, Weixin, Ma, Zhixin, et~al.
+\newblock Re-examining the Role of Schema Linking in Text-to-SQL[C].
+\newblock In: Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP).
+\newblock 2020.
+
+\bibitem{wang2019rat}
+Wang, Bailin, Shin, Richard, Liu, Xiaodong, et~al.
+\newblock RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL
+  Parsers[C].
+\newblock In: Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2020.
+
+\bibitem{shaw2018self}
+Shaw, Peter, Uszkoreit, Jakob, and Vaswani, Ashish.
+\newblock Self-Attention with Relative Position Representations[C].
+\newblock In: Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers).
+\newblock 2018.
+
+\bibitem{choi2021ryansql}
+Choi, DongHyun, Shin, Myeong~Cheol, Kim, EungGyun, et~al.
+\newblock Ryansql: Recursively applying sketch-based slot fillings for complex
+  text-to-sql in cross-domain databases[J].
+\newblock Computational Linguistics, 2021, 47(2):309--332.
+
+\bibitem{lin2020bridging}
+Lin, Xi~Victoria, Socher, Richard, and Xiong, Caiming.
+\newblock Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL
+  Semantic Parsing[C].
+\newblock In: Findings of the Association for Computational Linguistics: EMNLP.
+\newblock 2020.
+
+\bibitem{rubin2020smbop}
+Rubin, Ohad and Berant, Jonathan.
+\newblock SmBoP: Semi-autoregressive Bottom-up Semantic Parsing[C].
+\newblock In: Proceedings of the 5th Workshop on Structured Prediction for NLP
+  (SPNLP).
+\newblock 2021.
+
+\bibitem{chen2021shadowgnn}
+Chen, Zhi, Chen, Lu, Zhao, Yanbin, et~al.
+\newblock ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser[C].
+\newblock In: Proceedings of the 2021 Conference of the North American Chapter
+  of the Association for Computational Linguistics: Human Language
+  Technologies.
+\newblock 2021.
+
+\bibitem{schlichtkrull2018modeling}
+Schlichtkrull, Michael, Kipf, Thomas~N, Bloem, Peter, et~al.
+\newblock Modeling relational data with graph convolutional networks[C].
+\newblock In: European semantic web conference.
+\newblock 2018.
+
+\bibitem{cai2021sadga}
+Cai, Ruichu, Yuan, Jinjie, Xu, Boyan, et~al.
+\newblock SADGA: Structure-Aware Dual Graph Aggregation Network for
+  Text-to-SQL[J].
+\newblock Advances in Neural Information Processing Systems, 2021, 34(2):9--20.
+
+\bibitem{cao2021lgesql}
+Cao, Ruisheng, Chen, Lu, Chen, Zhi, et~al.
+\newblock LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and
+  Non-Local Relations[C].
+\newblock In: Proceedings of the 59th Annual Meeting of the Association for
+  Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers).
+\newblock 2021.
+
+\bibitem{roberts1978graph}
+Roberts, Fred~S.
+\newblock Graph theory and its applications to problems of society[M].
+\newblock SIAM, 1978.
+
+\bibitem{liu2021awakening}
+Liu, Qian, Yang, Dejian, Zhang, Jiahui, et~al.
+\newblock Awakening Latent Grounding from Pretrained Language Models for
+  Semantic Parsing[C].
+\newblock In: Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP.
+\newblock 2021.
+
+\bibitem{scholak2021picard}
+Scholak, Torsten, Schucher, Nathan, and Bahdanau, Dzmitry.
+\newblock PICARD: Parsing Incrementally for Constrained Auto-Regressive
+  Decoding from Language Models[C].
+\newblock In: Proceedings of the 2021 Conference on Empirical Methods in
+  Natural Language Processing.
+\newblock 2021.
+
+\bibitem{hwang2019comprehensive}
+Hwang, Wonseok, Yim, Jinyeung, Park, Seunghyun, et~al.
+\newblock A Comprehensive Exploration on WikiSQL with Table-Aware Word
+  Contextualization[J].
+\newblock CoRR, 2019, abs/1902.01069.
+
+\bibitem{devlin2018bert}
+Devlin, Jacob, Chang, Ming-Wei, Lee, Kenton, et~al.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding[C].
+\newblock In: Proceedings of the 2019 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long and Short Papers).
+\newblock Association for Computational Linguistics, 2019.
+
+\bibitem{he2019x}
+He, Pengcheng, Mao, Yi, Chakrabarti, Kaushik, et~al.
+\newblock {X-SQL:} reinforce schema representation with context[J].
+\newblock CoRR, 2019, abs/1908.08113.
+
+\bibitem{liu2019multi}
+Liu, Xiaodong, He, Pengcheng, Chen, Weizhu, et~al.
+\newblock Multi-Task Deep Neural Networks for Natural Language
+  Understanding[C].
+\newblock In: Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2019.
+
+\bibitem{lyu2020hybrid}
+Lyu, Qin, Chakrabarti, Kaushik, Hathi, Shobhit, et~al.
+\newblock Hybrid Ranking Network for Text-to-SQL[J].
+\newblock CoRR, 2020, abs/2008.04759.
+
+\bibitem{xuan2021sead}
+Xuan, Kuan, Wang, Yongbo, Wang, Yongliang, et~al.
+\newblock SeaD: End-to-end Text-to-SQL Generation with Schema-aware
+  Denoising[J].
+\newblock CoRR, 2021, abs/2105.07911.
+
+\bibitem{lewis2019bart}
+Lewis, Mike, Liu, Yinhan, Goyal, Naman, et~al.
+\newblock BART: Denoising Sequence-to-Sequence Pre-training for Natural
+  Language Generation, Translation, and Comprehension[C].
+\newblock In: Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2020.
+
+\bibitem{kelkar2020bertrand}
+Kelkar, Amol, Relan, Rohan, Bhardwaj, Vaishali, et~al.
+\newblock Bertrand-DR: Improving Text-to-SQL using a Discriminative
+  Re-ranker[J].
+\newblock CoRR, 2020, abs/2002.00557.
+
+\bibitem{raffel2019exploring}
+Raffel, Colin, Shazeer, Noam, Roberts, Adam, et~al.
+\newblock Exploring the Limits of Transfer Learning with a Unified Text-to-Text
+  Transformer[J].
+\newblock Journal of Machine Learning Research, 2020, 21:1--67.
+
+\bibitem{yin2020tabert}
+Yin, Pengcheng, Neubig, Graham, Yih, Wen-tau, et~al.
+\newblock TaBERT: Pretraining for Joint Understanding of Textual and Tabular
+  Data[C].
+\newblock In: Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2020.
+
+\bibitem{wang2021tuta}
+Wang, Zhiruo, Dong, Haoyu, Jia, Ran, et~al.
+\newblock TUTA: Tree-based Transformers for Generally Structured Table
+  Pre-training[C].
+\newblock In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge
+  Discovery \& Data Mining.
+\newblock 2021.
+
+\bibitem{shi2020learning}
+Shi, Peng, Ng, Patrick, Wang, Zhiguo, et~al.
+\newblock Learning Contextual Representations for Semantic Parsing with
+  Generation-Augmented Pre-Training[C].
+\newblock In: Proceedings of the AAAI Conference on Artificial Intelligence.
+\newblock 2021.
+
+\bibitem{deng2020structure}
+Deng, Xiang, Awadallah, Ahmed~Hassan, Meek, Christopher, et~al.
+\newblock Structure-grounded pretraining for text-to-sql[C].
+\newblock In: Proceedings of the 2021 Conference of the North American Chapter
+  of the Association for Computational Linguistics: Human Language
+  Technologies.
+\newblock 2021.
+
+\bibitem{yu2020grappa}
+Yu, Tao, Wu, Chien-Sheng, Lin, Xi~Victoria, et~al.
+\newblock GraPPa: grammar-augmented pre-training for table semantic parsing[C].
+\newblock In: International Conference on Learning Representations.
+\newblock 2021.
+
+\bibitem{sun2019ernie}
+Zhang, Zhengyan, Han, Xu, Liu, Zhiyuan, et~al.
+\newblock {ERNIE}: Enhanced Language Representation with Informative
+  Entities[C].
+\newblock In: Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics.
+\newblock 2019.
+
+\bibitem{brown2020language}
+Brown, Tom, Mann, Benjamin, Ryder, Nick, et~al.
+\newblock Language models are few-shot learners[J].
+\newblock Advances in neural information processing systems, 2020,
+  33(1):1877--1901.
+
+\bibitem{clark2020electra}
+Clark, Kevin, Luong, Minh-Thang, Le, Quoc~V., et~al.
+\newblock ELECTRA: Pre-training Text Encoders as Discriminators Rather Than
+  Generators[C].
+\newblock In: International Conference on Learning Representations.
+\newblock 2020.
+
+\bibitem{wang2020dusql}
+Wang, Lijie, Zhang, Ao, Wu, Kun, et~al.
+\newblock DuSQL: A Large-Scale and Pragmatic Chinese Text-to-SQL Dataset[C].
+\newblock In: Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP).
+\newblock 2020.
+
+\bibitem{liu2022tapex}
+Liu, Qian, Chen, Bei, Guo, Jiaqi, et~al.
+\newblock {TAPEX}: Table Pre-training via Learning a Neural {SQL} Executor[C].
+\newblock In: International Conference on Learning Representations.
+\newblock 2022.
+
+\bibitem{gan2021naturalsql}
+Gan, Yujian, Chen, Xinyun, Xie, Jinxia, et~al.
+\newblock Natural {SQL}: Making {SQL} Easier to Infer from Natural Language
+  Specifications[C].
+\newblock In: Proceedings of the Association for Computational Linguistics:
+  EMNLP.
+\newblock 2021.
+
+\bibitem{sun2020tableqa}
+Sun, Ningyuan, Yang, Xuefeng, and Liu, Yunfeng.
+\newblock TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware
+  {SQL} Generation[J].
+\newblock CoRR, 2020, abs/2006.06434.
+
+\bibitem{kingma2014adam}
+Kingma, Diederik~P and Ba, Jimmy.
+\newblock Adam: A method for stochastic optimization[C].
+\newblock In: Proceedings of the 3rd International Conference on Learning
+  Representations.
+\newblock 2014.
+
+\bibitem{pennington2014glove}
+Pennington, Jeffrey, Socher, Richard, and Manning, Christopher~D.
+\newblock Glove: Global vectors for word representation[C].
+\newblock In: Proceedings of the 2014 conference on empirical methods in
+  natural language processing (EMNLP).
+\newblock 2014.
+
+\bibitem{liu2019roberta}
+Liu, Yinhan, Ott, Myle, Goyal, Naman, et~al.
+\newblock RoBERTa: {A} Robustly Optimized {BERT} Pretraining Approach[J].
+\newblock CoRR, 2019, abs/1907.11692.
+
+\bibitem{SunZ0Q20}
+Sun, Yawei, Zhang, Lingling, Cheng, Gong, et~al.
+\newblock SPARQA: skeleton-based semantic parsing for complex questions over
+  knowledge bases[C].
+\newblock In: Proceedings of the AAAI Conference on Artificial Intelligence.
+\newblock 2020.
+
+\bibitem{ba2016layer}
+Ba, Lei~Jimmy, Kiros, Jamie~Ryan, and Hinton, Geoffrey~E.
+\newblock Layer Normalization[J].
+\newblock CoRR, 2016, abs/1607.06450.
+
+\bibitem{bird2009natural}
+Bird, Steven, Klein, Ewan, and Loper, Edward.
+\newblock Natural language processing with Python: analyzing text with the
+  natural language toolkit[M].
+\newblock " O'Reilly Media, Inc.", 2009.
+
+\bibitem{che2020n}
+Che, Wanxiang, Feng, Yunlong, Qin, Libo, et~al.
+\newblock {N-LTP:} {A} Open-source Neural Chinese Language Technology Platform
+  with Pretrained Models[J].
+\newblock CoRR, 2020, abs/2009.11616.
+
+\bibitem{yin2017syntactic}
+Yin, Pengcheng and Neubig, Graham.
+\newblock A Syntactic Neural Model for General-Purpose Code Generation[C].
+\newblock In: Proceedings of the 55th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers).
+\newblock 2017.
+
+\bibitem{dozat2016deep}
+Dozat, Timothy and Manning, Christopher~D.
+\newblock Deep biaffine attention for neural dependency parsing[C].
+\newblock In: Proceedings of 5th International Conference on Learning
+  Representations.
+\newblock 2017.
+
+\end{thebibliography}

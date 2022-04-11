@@ -1,0 +1,123 @@
+%!TEX program = xelatex
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[algorithmlist, AutoFakeBold, AutoFakeSlant, figurelist, tablelist, nomlist, masters]{seuthesix}
+\usepackage{xeCJK}
+\usepackage{fontspec, xltxtra, xunicode}
+\usepackage{graphicx, subfig}
+\usepackage{autobreak}
+\usepackage{amsmath, amssymb}
+\usepackage{tabularx, array, multirow}
+\usepackage{float}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{bm}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{natbib}
+
+\renewcommand{\algorithmicrequire}{ \textbf{Input:}} %Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{ \textbf{Output:}} %UseOutput in the format of Algorithm
+
+
+\XeTeXlinebreaklocale “zh” 
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt %文章内中文自动换行
+%公式编号设置
+% \numberwithin{equation}{section}
+% % \makeatletter
+% % \@addtoreset{equation}{section}
+% % \makeatother
+\renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
+
+\makeatletter
+\newenvironment{breakablealgorithm}
+  {% \begin{breakablealgorithm}
+   \begin{center}
+     \refstepcounter{algorithm}% New algorithm
+     \hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+     \renewcommand{\caption}[2][\relax]{% Make a new \caption
+       {\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+       \ifx\relax##1\relax % #1 is \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+       \else % #1 is not \relax
+         \addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+       \fi
+       \kern2pt\hrule\kern2pt
+     }
+  }{% \end{breakablealgorithm}
+     \kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+   \end{center}
+  }
+\makeatother
+
+\setcitestyle{comma}
+\setlength{\bibsep}{1.5pt}
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+% 表题 图题 章节号连接符
+\renewcommand {\thetable} {\thechapter{}-\arabic{table}}
+\renewcommand {\thefigure} {\thechapter{}-\arabic{figure}}
+\begin{document}
+\captionsetup{labelformat=default, labelsep=space}
+
+% \bibliographystyle{seuthesix}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\newtheorem{definition}{定义}[chapter]
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}  
+
+\categorynumber{TP18} % 分类采用《中国图书资料分类法》
+\UDC{004.8}            %《国际十进分类法UDC》的类号
+\secretlevel{公开}    %学位论文密级分为"公开"、"内部"、"秘密"和"机密"四种
+\studentid{181671 }   %学号要完整，前面的零不能省略。
+\title{论文题目（中文）}{}{论文题目（英文）
+}{}
+\author{}{}
+\advisor{老师名字}{职称}{老师名字（英文）}{职称（英文）}
+% 空白的时候需要加转移符
+% \advisor{\  }{\  }{ \ }{\  } 
+% \coadvisor{楚留香}{副教授}{Perfume Tsu}{Associate Prof.} % 没有% 可以不填
+\degreetype{}{Master of Engineering} % 详细学位名称
+\major{}
+\submajor{}
+\defenddate{}
+\authorizedate{\ }
+\committeechair{}
+\reviewer{}{}
+\department{}{}
+
+\begin{abstract}{}
+
+\end{abstract}
+
+\begin{englishabstract}{}
+
+
+\end{englishabstract}
+
+\tableofcontents
+\mainmatter  % 该命令切换到正文状态。页码从阿拉伯数字 1 开始，此前页码为罗马数字形式。
+
+\chapter{绪论}
+\section{研究背景}
+
+
+
+\acknowledgement
+
+% \bibliographystyle{seuthesix}
+\thesisbib{references}  % 该命令用于生成参考文献，采用 BIBTEX 工具自动生成。为此，需提供.bib 数据库文件名称作为该命令的参数，不需要包含扩展名。
+\bibliographystyle{seuthesix}
+% \bibliographystyle{unsrt}
+%\bibliography{usa_references}
+
+\resume{作者简介}
+
+\end{document}

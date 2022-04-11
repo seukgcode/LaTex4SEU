@@ -1,0 +1,63 @@
+\contentsline {chapter}{摘\hskip 1em\relax 要}{I}{section*.1}%
+\contentsline {chapter}{Abstract}{III}{section*.3}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}国内外研究现状}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}基于逻辑的NL2SQL方法}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}基于深度学习的NL2SQL方法}{3}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}面向单表的NL2SQL}{4}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}面向多表的NL2SQL}{5}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.3}基于预训练语言模型的NL2SQL}{8}{subsubsection.1.2.2.3}%
+\contentsline {section}{\numberline {1.3}存在问题分析}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.4}论文工作}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}论文组织情况}{11}{section.1.5}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}基于掩码机制的表格预训练框架}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}问题定义}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}表格预训练模型}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}研究动机}{14}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}模型整体框架}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}基于中间表示补充的表格预训练模型}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}数据增强}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}预训练任务}{18}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}中间表示填充}{19}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}模式链接}{22}{subsubsection.2.3.2.2}%
+\contentsline {section}{\numberline {2.4}模型的训练目标与损失函数}{24}{section.2.4}%
+\contentsline {section}{\numberline {2.5}实验评估}{24}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}数据集}{24}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}超参数设置}{26}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}实验结果与分析}{26}{subsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.3.1}性能实验}{27}{subsubsection.2.5.3.1}%
+\contentsline {subsubsection}{\numberline {2.5.3.2}不同填充方式的对比实验}{29}{subsubsection.2.5.3.2}%
+\contentsline {subsubsection}{\numberline {2.5.3.3}消融实验}{29}{subsubsection.2.5.3.3}%
+\contentsline {section}{\numberline {2.6}本章小结}{30}{section.2.6}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于复杂问题分解的NL2SQL模型}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}问题定义}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}NL2SQL定义}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}研究动机}{32}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}模型整体框架}{33}{section.3.2}%
+\contentsline {section}{\numberline {3.3}基于标注分解的NL2SQL模型}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}复杂问题分解}{34}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}标注分解方法}{35}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}编码层}{38}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}关系图卷积神经网络}{40}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}关系感知Transformer}{40}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}图构建和编码}{41}{subsubsection.3.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}解码层}{43}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}辅助任务}{46}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}模型的训练目标与损失函数}{47}{section.3.4}%
+\contentsline {section}{\numberline {3.5}实验评估}{48}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}数据集}{48}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}超参数设置}{48}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}实验结果与分析}{49}{subsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.1}性能实验}{49}{subsubsection.3.5.3.1}%
+\contentsline {subsubsection}{\numberline {3.5.3.2}消融实验}{50}{subsubsection.3.5.3.2}%
+\contentsline {subsubsection}{\numberline {3.5.3.3}可视化}{51}{subsubsection.3.5.3.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.4}案例分析}{52}{subsubsection.3.5.3.4}%
+\contentsline {subsubsection}{\numberline {3.5.3.5}错误分析}{54}{subsubsection.3.5.3.5}%
+\contentsline {section}{\numberline {3.6}本章小结}{56}{section.3.6}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}总结与展望}{57}{chapter.4}%
+\contentsline {section}{\numberline {4.1}主要工作总结}{57}{section.4.1}%
+\contentsline {section}{\numberline {4.2}未来工作展望}{58}{section.4.2}%
+\contentsline {chapter}{致谢}{59}{section*.45}%
+\contentsline {chapter}{参考文献}{61}{section*.47}%
+\contentsline {chapter}{作者简介}{69}{section*.49}%
