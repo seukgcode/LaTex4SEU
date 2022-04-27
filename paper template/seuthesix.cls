@@ -1,4 +1,3 @@
-
 %%  This is file `seuthesix.cls',
 %%  This file provides a LaTeX document class for typesetting thesis of Southeast University, Nanjing, China.
 %%  Copyright (c) 2007--2012 Xu Yuan, email: xuyuan.cn@gmail.com
@@ -208,6 +207,13 @@ listtablename={表格目录}
  \renewcommand{\@titleeng}{#3}
  \renewcommand{\@subtitleeng}{#4}
 }
+
+%% Engineering Thesis Type
+\newcommand{\@engthesistype}{}
+\newcommand{\engthesistype}[1]{
+    \renewcommand{\@engthesistype}{#1}
+}
+
 \newcommand{\@advisorname}{}
 \newcommand{\@advisortitle}{}
 \newcommand{\@advisornameeng}{}
@@ -291,7 +297,13 @@ listtablename={表格目录}
 \rule[-2.5pt]{6cm}{.4pt}\\ \small\@seuthesisthanks}
 \renewcommand\headrulewidth{0pt}
 }
+
+%% ----------------------------------------------------------------------------
+%%                           Generate A3 cover
+%% ----------------------------------------------------------------------------
+
 \newcommand\makebigcover{%generating a3 front cover
+
 \pdfpagewidth=420mm
 \pdfpageheight=297mm
 \setlength{\paperheight}{297mm}
@@ -299,12 +311,14 @@ listtablename={表格目录}
 \thispagestyle{empty}
  \setlength{\unitlength}{1cm}
  \noindent
+
 \begin{picture}(0,0)
-\setlength{\unitlength}{1cm}\put(19.5,-8){%
+\setlength{\unitlength}{1cm}\put(19.5,-8.5){%
 \includegraphics[width=19cm]{figures/front-cover.jpg}}%
 \end{picture}
+
  \begin{picture}(0,0)
-\put(19.5,0){
+\put(19.5,0.5){
 \renewcommand{\arraystretch}{1.0}
    \begin{tabular}{l}
      \CoverTopOption{\schoolcodepre}{\schoolcode} \\
@@ -315,19 +329,20 @@ listtablename={表格目录}
    \end{tabular}
    }
 \end{picture}
+
  \ifengineering
 \begin{picture}(0,0)
- \put(23.2,-7.5){ %
-\includegraphics[scale=0.65]{figures/engineering.png}}
+ \put(23,-7.2){ %
+\includegraphics[scale=0.68]{figures/engineering.png}}
 \end{picture}
    \else \ifmasters
 \begin{picture}(0,0)
- \put(24.5,-7.5){ %
+ \put(24.2,-7.2){ %
 \includegraphics[scale=1.1]{figures/master-hwzs.pdf}}
 \end{picture}
    \else \ifphd
 \begin{picture}(0,0)
- \put(24.5,-7.5){ %
+ \put(24.2,-7.2){ %
 \includegraphics[scale=1.1]{figures/doctor-hwzs.pdf}}
 \end{picture}
    \else
@@ -337,33 +352,40 @@ listtablename={表格目录}
    \fi
    \fi
    \fi
+
    \begin{picture}(0,0)
- \put(35,0){ %
-\includegraphics[width=2cm]{figures/seu-color-logo.png}}
+ \put(35,2){ %
+\includegraphics[width=2.15cm]{figures/seu-color-logo.png}}
 \end{picture}
+
 \begin{picture}(0,0)
- \put(-1,-22){ %
+ \put(-1,-21){ %
 \includegraphics[width=\textwidth]{figures/back-cover.png}}
 \end{picture}
+
 \begin{picture}(0,0)
-\put(18,-11){%
-\parbox[c]{\ccwd}{%
-\bfseries%
-\setlength{\baselineskip}{0pt}
-\@title\\
-\rule{0pt}{\ccwd}\\
-\@subtitle\\
-\vspace*{2cm}
-\@author\\
-\vspace*{2cm}
-\universityname
-}
-}
+  \put(18,-8){
+      \parbox[c]{\ccwd}{
+          \heiti
+          \setlength{\baselineskip}{0pt}
+          \@title\\
+          \rule{0pt}{\ccwd}\\
+          \@subtitle\\
+          \vspace*{4cm}
+          \@author\\
+          \vspace*{4cm}
+          \universityname
+      }
+  }
 \end{picture}
 
-\vspace*{8cm}
-
-\hspace*{20.5cm}
+% \ifengineering
+% \vspace*{5.7cm}
+% \else
+% \vspace*{6.0cm}
+% \fi
+\vspace*{6.0cm}
+\hspace*{21cm}
 \begin{minipage}{16cm}
    \begin{center}
      \linespread{1.25}
@@ -372,7 +394,25 @@ listtablename={表格目录}
    \end{center}
 \end{minipage}
 
-\hspace*{20.5cm}
+%% Engineering Thesis Type
+\ifengineering
+    \vspace*{0.6cm}
+    \hspace*{21cm}
+    \begin{minipage}{16cm}
+        \begin{center}
+            \sihao\bfseries
+            (\engthesistypepre\@engthesistype)
+        \end{center}
+    \end{minipage}
+\else
+\fi
+
+\ifengineering
+    \vspace*{0.6cm}
+\else
+    \vspace*{1.5cm}
+\fi
+\hspace*{21cm}
 \begin{minipage}{16cm}
     \begin{center}
     \setlength{\tabcolsep}{0pt}
@@ -386,22 +426,22 @@ listtablename={表格目录}
        \makebox[3.5cm][s]{\xiaoerhao\songti\advisorpre: } &
        \underline{\makebox[6cm][s]{
            \hspace*{1cm}
-           \makebox[2.5cm][c]{\xiaoerhao\heiti\@advisorname}
-           \makebox[2cm][r]{\xiaoerhao\heiti\@advisortitle}}}
+           \makebox[2.5cm][l]{\xiaoerhao\heiti\@advisorname}
+           \makebox[2cm][l]{\xiaoerhao\heiti\@advisortitle}}}
        \\
        &
        \ifcoadvisor
        \underline{\makebox[6cm][s]{
            \hspace*{1cm}
-           \makebox[2.5cm][c]{\xiaoerhao\heiti\@coadvisorname}
-           \makebox[2cm][r]{\xiaoerhao\heiti\@coadvisortitle}}}
+           \makebox[2.5cm][l]{\xiaoerhao\heiti\@coadvisorname}
+           \makebox[2cm][l]{\xiaoerhao\heiti\@coadvisortitle}}}
        \else
        \fi \\
      \end{tabular}
    \end{center}
   \end{minipage}
 
-    \hspace*{20.5cm}
+    \hspace*{21cm}
    \begin{minipage}{16cm}
        \begin{center}
    \setlength{\tabcolsep}{10pt}
@@ -409,13 +449,21 @@ listtablename={表格目录}
      \begin{tabular}{ll}
        \CoverBottomOption{\appdegreepre}{\@degreetype} &
        \CoverBottomOption{\authorizeorganizationpre}{\@authorizeorganization} \\
-       \CoverBottomOption{\majorpre}{\@major} &
+       \ifengineering
+          \CoverBottomOption{\engfieldpre}{\@major} &
+       \else
+          \CoverBottomOption{\majorpre}{\@major} &
+       \fi
        \CoverBottomOption{\defenddatepre}{\@defenddate}\\
-       \CoverBottomOption{\submajorpre}{\@submajor} &
+       \ifengineering
+          \CoverBottomOption{\resdirepre}{\@submajor} &
+       \else
+          \CoverBottomOption{\submajorpre}{\@submajor} &
+       \fi
        \CoverBottomOption{\authorizedatepre}{\@authorizedate}\\
        \CoverBottomOption[4.05cm]{\committeechairpre}{\@committeechair} &
        \CoverBottomOption{\reviewerpre}{\@reviewerA}\\
-       & \CoverBottomOption{\makebox[2.55cm]{}}{\@reviewerB}
+      %  & \CoverBottomOption{\makebox[2.55cm]{}}{\@reviewerB}
      \end{tabular}
    \end{center}
    \end{minipage}
@@ -430,6 +478,10 @@ listtablename={表格目录}
 \setlength{\paperheight}{297mm}
 \setlength{\paperwidth}{210mm}
 }
+
+%% ----------------------------------------------------------------------------
+%%                          Generate Chinese cover
+%% ----------------------------------------------------------------------------
 
 \newcommand{\makechinesecover}{
  \hypersetup{
@@ -514,9 +566,17 @@ listtablename={表格目录}
      \begin{tabular}{ll}
        \CoverBottomOption{\appdegreepre}{\@degreetype} &
        \CoverBottomOption{\authorizeorganizationpre}{\@authorizeorganization} \\
-       \CoverBottomOption{\majorpre}{\@major} &
+       \ifengineering
+          \CoverBottomOption{\engfieldpre}{\@major} &
+       \else
+          \CoverBottomOption{\majorpre}{\@major} &
+       \fi
        \CoverBottomOption{\defenddatepre}{\@defenddate}\\
-       \CoverBottomOption{\submajorpre}{\@submajor} &
+       \ifengineering
+          \CoverBottomOption{\resdirepre}{\@submajor} &
+       \else
+          \CoverBottomOption{\submajorpre}{\@submajor} &
+       \fi
        \CoverBottomOption{\authorizedatepre}{\@authorizedate}\\
        \CoverBottomOption[4.05cm]{\committeechairpre}{\@committeechair} &
        \CoverBottomOption{\reviewerpre}{\@reviewerA}\\
@@ -592,7 +652,12 @@ listtablename={表格目录}
          \fi
        submitted to}\\
        {\universitynameeng}\\
-       {For the Academic Degree of \@degreetypeen}\\
+       \ifengineering
+       {For the Professional Degree of \@degreetypeen}
+       \else
+       {For the Academic Degree of \@degreetypeen}
+       \fi 
+       \\
        {\vspace{0.5in}}%
        {BY}\\
        {\@authoreng}\\
